@@ -23,10 +23,10 @@ async def start_(client: Client, message: Message):
 💗 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐄𝐧𝐣𝐨𝐲 𝐒𝐮𝐩𝐞𝐫 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 ❥︎𝐌𝐮𝐬𝐢𝐜...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton("🌱❰𝐆𝐫𝐨𝐨𝐭 𝐍𝐞𝐭𝐰𝐨𝐫𝐤❱✨", url=f"https://t.me/Groot_Network"),
+           InlineKeyboardButton("🌱❰Sai Kumar Noob ❱✨", url=f"https://t.me/Serinotamusic"),
            ],[
            InlineKeyboardButton("🌸❰𝐔𝐩𝐝𝐚𝐭𝐞𝐬❱✨", url="https://t.me/RJbr0"),  
-           InlineKeyboardButton("👻❰𝐆𝐢𝐭 𝐎𝐰𝐧𝐞𝐫 𝐗𝐃❱✨", url="https://t.me/MyNameIsGroot"),
+           InlineKeyboardButton("👻❰𝐆𝐢𝐭 𝐎𝐰𝐧𝐞𝐫 𝐗𝐃❱✨", url="https://t.me/Serinotamusic"),
            ],[
            InlineKeyboardButton("🥀❰𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞❱✨", url="https://t.me/TeluguFriendsClub")
            ]]
@@ -42,7 +42,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "@𝗠𝘆𝗡𝗮𝗺𝗲𝗜𝘀𝗚𝗿𝗼𝗼𝘁", url=f"https://t.me/MyNameIsGroot")
+                        "@Fake_Friendship_Fake_Smile", url=f"https://t.me/Serinotamusic")
                 ]
             ]
         ),
