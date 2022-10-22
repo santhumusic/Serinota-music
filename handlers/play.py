@@ -3,7 +3,7 @@ tokyoworld
 /
 HoneyMusicBot
 Public
-forked from redtuud838832/HoneyMusicBot
+forked from tokyoworld/Serinota-music
 Code
 Pull requests
 Actions
@@ -12,9 +12,9 @@ Wiki
 Security
 Insights
 Settings
-HoneyMusicBot/handlers/play.py
-@redtuud838832
-redtuud838832 Create play.py
+Serinotamusicbot/handlers/play.py
+@tokyoworld
+tokyoworld Create play.py
  1 contributor
 345 lines (306 sloc)  13.7 KB
 #G-Network Music Projects
@@ -121,7 +121,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **పాటను వెతుకుతున్న 😒 ❰ 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 😇 ❱...**")
+    lel = await message.reply("🔎 **పాటను వెతుకుతున్న 😒 ❰ Sai Kumar Noob  ❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -129,7 +129,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GnetworkMusic"
+        user.first_name = "Serinotamusic"
     usar = user
     wew = usar.id
     try:
@@ -230,12 +230,12 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
-                            url=f"https://t.me/rjbr0")
+                            url=f"https://t.me/Serinotamusic")
                ],
                [
                         InlineKeyboardButton(
                             text="𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀",
-                            url=f"https://t.me/groot_Network")
+                            url=f"https://t.me/Serinotamusic")
                    
                 ]
             ]
@@ -251,12 +251,12 @@ async def play(_, message: Message):
           [
                     InlineKeyboardButton(
                             text="𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
-                            url=f"https://t.me/rjbr0")
+                            url=f"https://t.me/Serinotamusic")
                ],
                [
                         InlineKeyboardButton(
                             text="𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀",
-                            url=f"https://t.me/groot_Network")
+                            url=f"https://t.me/Serinotamusic")
                    
                 ]
             ]
@@ -310,12 +310,12 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
-                            url=f"https://t.me/rjbr0")
+                            url=f"https://Serinotamusic")
                ],
                [
                         InlineKeyboardButton(
                             text="𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀",
-                            url=f"https://t.me/Groot_Network")
+                            url=f"https://t.me/Serinotamusic")
                    
                 ]
             ]
@@ -376,4 +376,4 @@ API
 Training
 Blog
 About
-HoneyMusicBot/play.py at main · tokyoworld/HoneyMusicBot
+SerinotaMusic/play.py at main · tokyoworld/SerinotaMusic
