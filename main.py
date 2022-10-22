@@ -5,7 +5,7 @@ import requests
 from pyrogram import idle
 from pyrogram import Client as Bot
 
-from 'grootmusic' import run
+from 'serinota music' import run
 from config import API_ID, API_HASH, BOT_TOKEN
 
 
